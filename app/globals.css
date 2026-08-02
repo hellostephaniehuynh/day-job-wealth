@@ -1,26 +1,43 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Desert Rose, adapted around the Day Job Wealth logo's ivory/near-black base */
+  --color-ivory: #f6f1ea;
+  --color-paper: #fcfaf6;
+  --color-ink: #1c1512;
+  --color-ink-soft: #4a3f3a;
+  --color-clay: #b87d6d;
+  --color-clay-dark: #9c6455;
+  --color-burgundy: #5d2e46;
+  --color-rose: #ddb6ae;
+  --color-rose-tint: #f1e2dd;
+  --color-line: #e4d9cd;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  --color-ivory: var(--color-ivory);
+  --color-paper: var(--color-paper);
+  --color-ink: var(--color-ink);
+  --color-ink-soft: var(--color-ink-soft);
+  --color-clay: var(--color-clay);
+  --color-clay-dark: var(--color-clay-dark);
+  --color-burgundy: var(--color-burgundy);
+  --color-rose: var(--color-rose);
+  --color-rose-tint: var(--color-rose-tint);
+  --color-line: var(--color-line);
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --font-display: var(--font-bricolage), sans-serif;
+  --font-script: var(--font-script), cursive;
+  --font-body: var(--font-newsreader), serif;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-ivory);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+}
+
+::selection {
+  background: var(--color-rose);
+  color: var(--color-ink);
 }

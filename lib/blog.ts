@@ -1,4 +1,5 @@
 import type { PortableTextBlock } from "@portabletext/types";
+import type { SanityImageSource } from "@sanity/image-url";
 import { sanityClient, sanityConfigured } from "@/lib/sanity/client";
 import { allPostsQuery, postBySlugQuery } from "@/lib/sanity/queries";
 import { urlForImage } from "@/lib/sanity/image";
@@ -32,7 +33,7 @@ type SanityPostDoc = {
   title: string;
   excerpt: string;
   category: PostCategory;
-  coverImage: unknown;
+  coverImage: SanityImageSource;
   publishedAt: string;
   body?: PortableTextBlock[];
 };

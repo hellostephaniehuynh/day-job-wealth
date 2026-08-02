@@ -36,6 +36,7 @@ export default function SubscribeForm() {
         <p className="mt-2 font-body text-sm text-ink-soft">
           Your download is ready below. I&apos;ve also sent a copy to your inbox.
         </p>
+        {/* eslint-disable-next-line @next/next/no-html-link-for-pages -- file download, not an app route */}
         <a
           href="/api/download/home-income-guide"
           className="mt-6 inline-block rounded-full bg-ink px-7 py-3 font-display text-sm font-semibold uppercase tracking-wide text-ivory transition-colors hover:bg-burgundy"

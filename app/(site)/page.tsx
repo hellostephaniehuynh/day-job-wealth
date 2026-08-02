@@ -1,11 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
-import { posts } from "@/lib/posts";
+import { getAllPosts } from "@/lib/blog";
 import { paidProducts } from "@/lib/products";
 import PostCard from "@/components/PostCard";
 import ProductCard from "@/components/ProductCard";
 
-export default function Home() {
+export default async function Home() {
+  const posts = (await getAllPosts()).slice(0, 3);
+
   return (
     <>
       {/* Hero */}

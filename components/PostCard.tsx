@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
-import type { Post } from "@/lib/posts";
+import type { BlogPost } from "@/lib/blog";
 
-export default function PostCard({ post }: { post: Post }) {
+export default function PostCard({ post }: { post: BlogPost }) {
   return (
     <Link href={`/blog/${post.slug}`} className="group flex flex-col">
       <div className="relative aspect-[4/3] overflow-hidden rounded-2xl bg-rose-tint">

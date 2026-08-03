@@ -1,7 +1,8 @@
 # Day Job Wealth
 
 Personal-brand site for Stephanie Huynh — blog, digital products, and a free
-lead magnet, built with Next.js, Sanity, Stripe, and ConvertKit.
+lead magnet, built with Next.js, Sanity, Stripe, and Kit (formerly
+ConvertKit).
 
 The site is fully functional out of the box with sample content. Each
 integration below is optional and degrades gracefully (a clear inline
@@ -54,13 +55,21 @@ work on the site.
    (Purchases already work without this — the webhook is just a hook for
    future fulfillment like a receipt email.)
 
-### 3. ConvertKit (free guide opt-in)
+### 3. Kit / ConvertKit (free guide opt-in)
 
-1. Set `CONVERTKIT_API_KEY` (Account Settings → Advanced) and
-   `CONVERTKIT_FORM_ID` (from the form you want subscribers added to).
-2. Optionally set up a ConvertKit automation on that form to email the
-   guide as a backup — the site already reveals a direct download link
-   immediately after signup.
+Uses Kit's current v4 API (`api.kit.com/v4`), not the legacy v3 API.
+
+1. Get an API key: log in at kit.com → profile icon → Settings → Developer
+   → "V4 Keys" → Add a new key. Copy it immediately — it's shown once.
+2. Set `CONVERTKIT_API_KEY` to that value.
+3. `CONVERTKIT_FORM_ID` needs the numeric form ID, which isn't shown
+   anywhere in the UI directly (only the string `uid` used in embed codes
+   is). Once the API key is set, ask Claude to look it up — it can call
+   `GET /v4/forms` and match the `uid` from your embed code to the right
+   numeric `id` automatically.
+4. Optionally set up a Kit automation on that form to email the guide as a
+   backup — the site already reveals a direct download link immediately
+   after signup.
 
 ### 4. Contact form email (optional)
 

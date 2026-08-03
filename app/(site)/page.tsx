@@ -5,6 +5,9 @@ import { paidProducts } from "@/lib/products";
 import PostCard from "@/components/PostCard";
 import ProductCard from "@/components/ProductCard";
 
+// Refetch blog posts and live Stripe prices at most once an hour.
+export const revalidate = 3600;
+
 export default async function Home() {
   const posts = (await getAllPosts()).slice(0, 3);
 

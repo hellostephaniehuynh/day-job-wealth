@@ -3,11 +3,15 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getProductBySlug, products } from "@/lib/products";
+import { getLivePriceDisplay } from "@/lib/stripe";
 import BuyButton from "@/components/BuyButton";
 
 export function generateStaticParams() {
   return products.map((product) => ({ slug: product.slug }));
 }
+
+// Refetch the live Stripe price at most once an hour.
+export const revalidate = 3600;
 
 export async function generateMetadata({
   params,
@@ -28,6 +32,10 @@ export default async function ProductPage({
   const { slug } = await params;
   const product = getProductBySlug(slug);
   if (!product) notFound();
+
+  const priceDisplay = product.free
+    ? "Free"
+    : (await getLivePriceDisplay(process.env[product.stripePriceEnvVar])) ?? product.priceDisplay;
 
   return (
     <section className="mx-auto max-w-5xl px-6 py-16 sm:px-10 sm:py-20">
@@ -70,7 +78,7 @@ export default async function ProductPage({
                 Get It Free
               </Link>
             ) : (
-              <BuyButton slug={product.slug} priceDisplay={product.priceDisplay} />
+              <BuyButton slug={product.slug} priceDisplay={priceDisplay} />
             )}
           </div>
 

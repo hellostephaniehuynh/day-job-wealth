@@ -7,6 +7,10 @@ export const metadata: Metadata = {
   description: "Digital guides for building wealth alongside a day job, from Stephanie Huynh.",
 };
 
+// Refetch live Stripe prices at most once an hour, so a price change in
+// Stripe shows up here without needing a full redeploy.
+export const revalidate = 3600;
+
 export default function ShopPage() {
   return (
     <section className="mx-auto max-w-6xl px-6 py-16 sm:px-10 sm:py-20">

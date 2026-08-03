@@ -1,8 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
 import type { Product } from "@/lib/products";
+import { getLivePriceDisplay } from "@/lib/stripe";
 
-export default function ProductCard({ product }: { product: Product }) {
+export default async function ProductCard({ product }: { product: Product }) {
+  const priceDisplay = product.free
+    ? "Free"
+    : (await getLivePriceDisplay(process.env[product.stripePriceEnvVar])) ?? product.priceDisplay;
+
   return (
     <Link
       href={`/shop/${product.slug}`}
@@ -17,7 +22,7 @@ export default function ProductCard({ product }: { product: Product }) {
           sizes="(min-width: 768px) 50vw, 100vw"
         />
         <span className="absolute right-4 top-4 rounded-full bg-ivory px-3 py-1 font-display text-xs font-semibold uppercase tracking-wide text-ink shadow-sm">
-          {product.free ? "Free" : product.priceDisplay}
+          {priceDisplay}
         </span>
       </div>
       <div className="flex flex-1 flex-col p-6">

@@ -9,33 +9,32 @@ export type SocialLink = {
 };
 
 /**
- * TODO(Stephanie): swap these placeholder URLs for your real handles.
  * Add Skool here later — it's one more entry, nothing else to change.
  */
 export const socialLinks: SocialLink[] = [
   {
     label: "Instagram",
-    href: "https://instagram.com/dayjobwealth",
+    href: "https://instagram.com/_stephaniehuynh_",
     icon: FaInstagram,
   },
   {
     label: "YouTube",
-    href: "https://youtube.com/@dayjobwealth",
+    href: "https://www.youtube.com/@DayJobWealth",
     icon: FaYoutube,
   },
   {
     label: "Substack",
-    href: "https://dayjobwealth.substack.com",
+    href: "https://substack.com/@dayjobwealth",
     icon: Rss,
   },
   {
     label: "TikTok",
-    href: "https://tiktok.com/@dayjobwealth",
+    href: "https://tiktok.com/@_stephaniehuynh",
     icon: FaTiktok,
   },
   {
     label: "Beacons",
-    href: "https://beacons.ai/dayjobwealth",
+    href: "https://beacons.ai/stephaniehuynh",
     icon: Link2,
   },
 ];

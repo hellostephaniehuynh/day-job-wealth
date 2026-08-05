@@ -13,7 +13,7 @@ export default function AboutPage() {
     <>
       <section className="mx-auto max-w-6xl px-6 pb-16 pt-14 sm:px-10 sm:pt-20">
         <div className="grid items-center gap-12 lg:grid-cols-[0.85fr_1.15fr] lg:gap-16">
-          <div className="relative mx-auto aspect-[4/5] w-full max-w-sm overflow-hidden rounded-[1.75rem]">
+          <div className="relative mx-auto aspect-[4/5] w-full max-w-sm overflow-hidden rounded-2xl">
             <Image
               src="/images/stephanie-portrait.jpg"
               alt="Stephanie Huynh"
@@ -58,7 +58,7 @@ export default function AboutPage() {
             we&apos;ve grown what our home equity does for us.
           </p>
 
-          <blockquote className="border-l-2 border-clay py-2 pl-6 font-script text-3xl font-normal leading-snug text-burgundy">
+          <blockquote className="border-l-2 border-clay py-2 pl-6 font-display text-2xl font-bold leading-snug text-ink sm:text-3xl">
             I&apos;m not doing this instead of my day job. I&apos;m doing it
             because of it.
           </blockquote>

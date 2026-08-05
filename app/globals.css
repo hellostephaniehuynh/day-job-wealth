@@ -1,17 +1,17 @@
 @import "tailwindcss";
 
 :root {
-  /* Desert Rose, adapted around the Day Job Wealth logo's ivory/near-black base */
-  --color-ivory: #f6f1ea;
-  --color-paper: #fcfaf6;
-  --color-ink: #1c1512;
-  --color-ink-soft: #4a3f3a;
-  --color-clay: #b87d6d;
-  --color-clay-dark: #9c6455;
-  --color-burgundy: #5d2e46;
-  --color-rose: #ddb6ae;
-  --color-rose-tint: #f1e2dd;
-  --color-line: #e4d9cd;
+  /* Modern, streamlined: near-white base, bold black type, one restrained accent */
+  --color-ivory: #ffffff;
+  --color-paper: #f7f7f5;
+  --color-ink: #0a0a0a;
+  --color-ink-soft: #55534f;
+  --color-clay: #b8543c;
+  --color-clay-dark: #96402c;
+  --color-burgundy: #0a0a0a;
+  --color-rose: #ececea;
+  --color-rose-tint: #f7f7f5;
+  --color-line: #e5e3de;
 }
 
 @theme inline {
@@ -27,8 +27,7 @@
   --color-line: var(--color-line);
 
   --font-display: var(--font-bricolage), sans-serif;
-  --font-script: var(--font-script), cursive;
-  --font-body: var(--font-newsreader), serif;
+  --font-body: var(--font-inter), sans-serif;
 }
 
 body {

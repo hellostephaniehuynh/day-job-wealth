@@ -16,12 +16,8 @@ export default function ResourcesPage() {
           <p className="font-display text-xs font-semibold uppercase tracking-[0.2em] text-clay-dark">
             Free Resource
           </p>
-          <h1 className="mt-4 font-display text-4xl font-extrabold leading-[1.05] tracking-tight text-ink sm:text-5xl">
-            The Home Income{" "}
-            <span className="font-script text-4xl font-normal text-burgundy sm:text-5xl">
-              Guide
-            </span>
-            .
+          <h1 className="mt-4 font-display text-4xl font-extrabold uppercase leading-[1.05] tracking-tight text-ink sm:text-5xl">
+            The Home Income Guide.
           </h1>
           <p className="mt-6 max-w-lg font-body text-lg leading-relaxed text-ink-soft">
             How everyday homeowners are building a second income stream from their own
@@ -35,7 +31,7 @@ export default function ResourcesPage() {
           </div>
         </div>
 
-        <div className="relative mx-auto aspect-[4/5] w-full max-w-sm overflow-hidden rounded-[1.75rem]">
+        <div className="relative mx-auto aspect-[4/5] w-full max-w-sm overflow-hidden rounded-2xl">
           <Image
             src="/images/pool-lounge-day.jpg"
             alt="The Home Income Guide"

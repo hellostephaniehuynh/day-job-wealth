@@ -17,8 +17,8 @@ export default function ShopPage() {
       <p className="font-display text-xs font-semibold uppercase tracking-[0.2em] text-clay-dark">
         Shop
       </p>
-      <h1 className="mt-4 font-display text-4xl font-extrabold leading-[1.05] tracking-tight text-ink sm:text-5xl">
-        Digital <span className="font-script text-4xl font-normal text-burgundy sm:text-5xl">guides</span>.
+      <h1 className="mt-4 font-display text-4xl font-extrabold uppercase leading-[1.05] tracking-tight text-ink sm:text-5xl">
+        Digital Guides.
       </h1>
       <p className="mt-6 max-w-xl font-body text-lg leading-relaxed text-ink-soft">
         Frameworks and worksheets for turning a home &mdash; and a day job &mdash; into real

@@ -25,9 +25,8 @@ export default async function BlogPage({
       <p className="font-display text-xs font-semibold uppercase tracking-[0.2em] text-clay-dark">
         The Blog
       </p>
-      <h1 className="mt-4 font-display text-4xl font-extrabold leading-[1.05] tracking-tight text-ink sm:text-5xl">
-        Real estate, investing, and building{" "}
-        <span className="font-script text-4xl font-normal text-burgundy sm:text-5xl">Hopscotch</span>.
+      <h1 className="mt-4 font-display text-4xl font-extrabold uppercase leading-[1.05] tracking-tight text-ink sm:text-5xl">
+        Real Estate, Investing &amp; Building Hopscotch.
       </h1>
 
       <div className="mt-8 flex flex-wrap gap-2">

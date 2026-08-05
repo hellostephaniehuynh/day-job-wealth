@@ -14,11 +14,11 @@ export default function Header() {
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4 sm:px-10">
         <Link href="/" className="flex items-center gap-2" onClick={() => setOpen(false)}>
           <Image
-            src="/images/logo.png"
+            src="/images/logo-transparent.png"
             alt="Day Job Wealth — by Stephanie Huynh"
-            width={168}
-            height={84}
-            className="h-12 w-auto sm:h-14"
+            width={1256}
+            height={385}
+            className="h-9 w-auto sm:h-11"
             priority
           />
         </Link>

@@ -10,10 +10,10 @@ export default function Footer() {
         <div className="grid gap-12 sm:grid-cols-2 md:grid-cols-4">
           <div className="md:col-span-2">
             <Image
-              src="/images/logo.png"
+              src="/images/logo-transparent.png"
               alt="Day Job Wealth — by Stephanie Huynh"
-              width={180}
-              height={90}
+              width={1256}
+              height={385}
               className="h-14 w-auto brightness-0 invert"
             />
             <p className="mt-4 max-w-sm font-body text-sm leading-relaxed text-ivory/70">

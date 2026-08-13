@@ -31,11 +31,9 @@ export default function AboutPage() {
               Hi, I&apos;m Stephanie.
             </h1>
             <p className="mt-6 max-w-xl font-body text-lg leading-relaxed text-ink-soft">
-              I have a day job. I also have a rental spreadsheet, a growing pile of
-              home renovation receipts, and a tech company I&apos;m building nights
-              and weekends. Day Job Wealth is where I write it all down &mdash; not
-              as someone who quit their job to do this full-time, but as someone
-              still very much in the middle of it.
+              At 30, after getting divorced &mdash; for the second time &mdash; my
+              ex-husband took the house, and I was left with $60K in debt from our
+              marriage.
             </p>
           </div>
         </div>
@@ -44,37 +42,42 @@ export default function AboutPage() {
       <section className="mx-auto max-w-3xl px-6 py-4 sm:px-10">
         <div className="space-y-6 font-body text-lg leading-relaxed text-ink-soft">
           <p>
-            I didn&apos;t start out thinking of our house as an asset. It was just
-            where we lived &mdash; until a refinance, then a renovation, then a
-            second property, added up to more of our net worth than either of our
-            paychecks did in a given year. That shift in how I saw our home is the
-            whole reason this site exists.
+            I worked relentlessly to dig myself out of the debt hole and purchased
+            my home, which I slowly DIY&apos;d and renovated over the years into a
+            six-figure home hacking business &mdash; all while working a day job.
           </p>
           <p>
-            Now I write about the real, unglamorous mechanics of building wealth
-            around a full-time job: how we decided which renovations were
-            investments and which were just nice-to-haves, the budget that
-            actually got us to a second property, and the slow, deliberate way
-            we&apos;ve grown what our home equity does for us.
+            I&apos;m still working my 9-5, running my home hacking business, and my
+            latest venture is currently building my startup, Hopscotch &mdash; a
+            platform for families with children to find safe, private places to
+            play. It&apos;s something I&apos;m extremely passionate about, directly
+            inspired by my day-to-day life home hacking and the needs I see from
+            mentoring through Big Brothers Big Sisters.
+          </p>
+          <p>
+            Some would say I&apos;m an &ldquo;over-achiever,&rdquo; but I was
+            actually considered the &ldquo;not smart&rdquo; one in my family.
+            I&apos;m just a normal girl figuring it out day by day.
           </p>
 
           <blockquote className="border-l-2 border-clay py-2 pl-6 font-display text-2xl font-bold leading-snug text-ink sm:text-3xl">
-            I&apos;m not doing this instead of my day job. I&apos;m doing it
-            because of it.
+            I decided to take radical responsibility for my life and make a
+            change.
           </blockquote>
 
           <p>
-            The newest chapter is Hopscotch &mdash; a tech company I&apos;m
-            building from scratch, in public, starting with nothing but a
-            problem I couldn&apos;t stop thinking about and the hours before and
-            after work. I&apos;m documenting that build here too: the decisions,
-            the setbacks, and the actual numbers, as they happen rather than in
-            hindsight.
+            I&apos;m not selling any &ldquo;get rich quick&rdquo; schemes or
+            promises of never having to work a day job again. I share tools and
+            strategies to build the number in your bank account &mdash; from home
+            hacking, investing, or building a business &mdash; what works for me,
+            what isn&apos;t working, and the actual numbers.
           </p>
           <p>
-            If you&apos;re working a day job and building something on the side
-            &mdash; a rental, a portfolio, a business, a better budget &mdash;
-            this is a place to see that work done honestly, in real time.
+            By sharing my story, I hope other women can be inspired to know that
+            they too can build a wealthy life &mdash; whether you&apos;re working a
+            day job or building without one &mdash; that isn&apos;t just the
+            numbers in your bank account, but how you decide to live and
+            experience your life.
           </p>
         </div>
 

@@ -50,9 +50,10 @@ export const posts: Post[] = [
     publishedAt: "2026-07-02",
     readingTime: "5 min read",
     content: [
-      "I didn't start Hopscotch with a business plan. I started it with a problem I kept running into and a Notes app full of half-formed rants about it. Week one was less 'founder mode' and more just admitting the idea wasn't going away on its own.",
-      "The actual work was unglamorous: eleven customer conversations squeezed into lunch breaks and evenings, a rough sketch of what the product could be, and a spreadsheet estimating whether this was even worth my nights and weekends. No funding, no co-founder yet, no announcement.",
+      "I didn't start Hopscotch with a business plan. I started it with a problem I kept running into and a brain full of a constant stream of consciousness about it, about what it could be. Week one was less 'founder mode' and more just admitting the idea wasn't going away on its own.",
+      "The actual work is unglamorous: early mornings, late nights all while still working my day job. A rough sketch of what the platform could be, and a spreadsheet estimating whether this was even worth my nights and weekends. No funding, no announcement.",
       "I'm documenting this in public because most 'building in public' content starts after the exciting part already happened. I'd rather show the actual beginning — including the parts where I had no idea if this was a good idea.",
+      "Follow along as this formerly broke mid-30's divorcee attempts to DIY a tech startup, on my Substack, linked below.",
     ],
   },
   {

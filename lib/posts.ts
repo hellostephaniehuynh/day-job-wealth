@@ -68,7 +68,7 @@ export const posts: Post[] = [
     content: [
       "The spreadsheet that got me my home wasn't clever. It didn't even exist. Nothing about it would make an interesting Instagram carousel.",
       "What I did do is check my financial dashboard every single day, not once a month, not once a week. EVERY. SINGLE. DAY. Small seemingly mindless things like subscriptions, takeout, the 'just this once' purchases, come and go fast when you're not looking, and those were exactly the categories that helped fund the down payment for my first home. Oh, and I was working constantly, that helped too.",
-      "This is intentional money management. So many people let their finances (and their life for that matter) become an after-thought, when it's a living, breathing asset that needs to be maintained and cared for. I think about this quote often: &ldquo;Money is a cruel mistress, if you don't pay attention to her, she will leave you for someone else.&rdquo;",
+      "This is intentional money management. So many people let their finances (and their life for that matter) become an after-thought, when it's a living, breathing asset that needs to be maintained and cared for. I think about this quote often: Money is a cruel mistress, if you don't pay attention to her, she will leave you for someone else.",
       "The property is the visible result, but the habit is the actual asset. Building wealth is simple but it's not easy. And to become wealthy you either save more money or make more money. I say do both.",
       "I talk about money, home ownership, business and building a wealthy life beyond the 9-5 on my Substack, linked below.",
     ],

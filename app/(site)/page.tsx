@@ -44,7 +44,7 @@ export default async function Home() {
                 href="/resources"
                 className="rounded-full border border-ink/15 px-7 py-3 font-display text-sm font-semibold uppercase tracking-wide text-ink transition-colors hover:border-ink"
               >
-                Get the Free Guide
+                Free Wealth Starter Kit
               </Link>
             </div>
           </div>

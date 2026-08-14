@@ -49,11 +49,14 @@ export default function ChallengeWaitlistSection() {
             </p>
           ) : (
             <>
-              <p className="mt-4 max-w-sm font-body text-sm leading-relaxed text-ivory/80">
-                One small money move a day for 30 days. Join the waitlist for first
-                access when doors open.
+              <p className="mt-4 max-w-md font-body text-sm leading-relaxed text-ivory/80">
+                The Money Moves Challenge is a daily investing and wealth-building
+                challenge designed to get you out of your head and into action
+                &mdash; with lessons, accountability, and real steps you can take
+                the same day. Spots are limited. Join the waitlist to get first
+                access.
               </p>
-              <form onSubmit={handleSubmit} className="mt-6 flex flex-col gap-3 sm:max-w-sm">
+              <form onSubmit={handleSubmit} className="mt-6 flex flex-col gap-3 sm:max-w-md">
                 <input
                   type="email"
                   name="email"

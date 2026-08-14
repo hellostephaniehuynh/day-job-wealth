@@ -24,17 +24,19 @@ export type Post = {
 export const posts: Post[] = [
   {
     slug: "why-we-turned-our-backyard-into-an-asset",
-    title: "Why We Turned Our Backyard Into an Asset, Not Just a Yard",
+    title: "Why I Turned My Backyard Into an Asset",
     excerpt:
-      "The pool, the pergola, the fire pit — every dollar we put into this backyard was a decision I ran through the same filter I use for any investment. Here's the math behind it.",
+      "It was a slab of concrete everyone told me to leave alone. Here's how it became a six-figure piece of my home hacking business.",
     category: "Real Estate",
     coverImage: "/images/patio-pool.jpg",
     publishedAt: "2026-06-12",
     readingTime: "7 min read",
     content: [
-      "When we first walked the backyard, it was a slab of concrete and a chain-link fence. Every contractor we talked to pitched it as a lifestyle upgrade — nicer for hosting, nicer for the kids, nicer for us. That framing never sat right with me, because 'nicer' doesn't show up on a balance sheet.",
-      "So I built a different filter: does this dollar increase what the property is worth, what it could rent for, or how long we'll want to stay here? The pool and the pergola both cleared that bar. A few things we almost added — a built-in pizza oven, a putting green — didn't, and we skipped them.",
-      "Eighteen months later, an appraisal came back well above what we'd put in, and a property manager quoted a rental estimate that made the whole project cash-flow positive if we ever move. That's the difference between a yard and an asset: you can point to the number.",
+      "When I first walked into the backyard it was basically a slab of concrete and dirt. Every person I knew said that it was too big of a project, that I couldn't do it, that it was going to be too much. But I saw what it could be.",
+      "So I started small and deliberate. A pool, because water sells space. A pergola, because shade turns a yard into a room you actually want to sit in. A fire pit, because nobody leaves a backyard once the sun goes down. Every decision ran through the same filter: would this make the space more valuable, or was I just decorating it?",
+      "What nobody tells you about a backyard like this is that it doesn't have to just sit there between weekends. Once it was done, I started listing it — first on Peerspace for photo shoots and small gatherings, then opening up parts of the property on Airbnb. The same pool and pergola that made me want to come home every night turned into a booking calendar.",
+      "Within the first year, that backyard alone had paid for itself and then some. It's now a six-figure piece of the home hacking business I run alongside my full-time job — the same concrete slab everyone told me to leave alone is quietly funding everything else I'm building.",
+      "That's the whole thesis behind Day Job Wealth: you don't need a bigger house or a different life to start. You need to look at what you already have and ask what it could become.",
     ],
   },
   {

@@ -28,10 +28,15 @@ export default async function Home() {
               <br />
               real wealth.
             </h1>
-            <p className="mt-6 max-w-lg font-body text-lg leading-relaxed text-ink-soft">
-              I write about money, investing, real estate and side hustles from the
-              middle of it &mdash; while still clocking in at a day job, and while
-              building my tech company, Hopscotch, in real time.
+            <p className="mt-6 max-w-xl font-body text-lg leading-relaxed text-ink-soft">
+              Hi, I&apos;m Stephanie. A formerly broke mid-30&apos;s divorcee who
+              bought her own home &amp; turned it into a six-figure business. I
+              share with you how to build a wealthy life beyond the 9-5, because
+              life is much more than how much you have in your bank account
+              (although it doesn&apos;t hurt, of course) &mdash; money, real
+              estate, &amp; entrepreneurship &mdash; all while still clocking in
+              at a day job, running my home hacking business, &amp; while
+              building my tech company, Hopscotch, all in real time.
             </p>
             <div className="mt-8 flex flex-wrap items-center gap-4">
               <Link

@@ -57,18 +57,20 @@ export const posts: Post[] = [
     ],
   },
   {
-    slug: "the-budget-that-let-me-buy-a-second-property",
-    title: "The Unglamorous Budget That Let Me Buy a Second Property",
+    slug: "unglamorous-side-budget-that-let-me-buy-my-home-solo",
+    title: "The Unglamorous Side Budget That Let Me Buy My Home Solo",
     excerpt:
-      "It wasn't a raise. It wasn't luck. It was eighteen months of a spreadsheet I was almost too embarrassed to show anyone — until it worked.",
+      "The spreadsheet wasn't clever — it didn't even exist. Here's the intentional, unglamorous money management that funded the down payment on my first home, solo.",
     category: "Budgeting",
     coverImage: "/images/backyard-firepit.jpg",
     publishedAt: "2026-05-20",
     readingTime: "6 min read",
     content: [
-      "The spreadsheet that got us to a second property wasn't clever. It was a single tab with every recurring expense listed out, color-coded by how much I'd regret cutting it. Nothing about it would make an interesting Instagram carousel.",
-      "What made it work was that I checked it every single week, not once a month. Small categories — subscriptions, takeout, the 'just this once' purchases — drift fast when you're not looking, and those were exactly the categories that funded the down payment over eighteen months.",
-      "I still don't call this frugality. I call it routing money on purpose instead of by accident. The property is the visible result, but the habit is the actual asset.",
+      "The spreadsheet that got me my home wasn't clever. It didn't even exist. Nothing about it would make an interesting Instagram carousel.",
+      "What I did do is check my financial dashboard every single day, not once a month, not once a week. EVERY. SINGLE. DAY. Small seemingly mindless things like subscriptions, takeout, the 'just this once' purchases, come and go fast when you're not looking, and those were exactly the categories that helped fund the down payment for my first home. Oh, and I was working constantly, that helped too.",
+      "This is intentional money management. So many people let their finances (and their life for that matter) become an after-thought, when it's a living, breathing asset that needs to be maintained and cared for. I think about this quote often: &ldquo;Money is a cruel mistress, if you don't pay attention to her, she will leave you for someone else.&rdquo;",
+      "The property is the visible result, but the habit is the actual asset. Building wealth is simple but it's not easy. And to become wealthy you either save more money or make more money. I say do both.",
+      "I talk about money, home ownership, business and building a wealthy life beyond the 9-5 on my Substack, linked below.",
     ],
   },
 ];

@@ -29,8 +29,8 @@ export default async function Home() {
               real wealth.
             </h1>
             <p className="mt-6 max-w-lg font-body text-lg leading-relaxed text-ink-soft">
-              I write about real estate, investing, and side hustles from the middle
-              of it &mdash; while still clocking in at a day job, and while
+              I write about money, investing, real estate and side hustles from the
+              middle of it &mdash; while still clocking in at a day job, and while
               building my tech company, Hopscotch, in real time.
             </p>
             <div className="mt-8 flex flex-wrap items-center gap-4">

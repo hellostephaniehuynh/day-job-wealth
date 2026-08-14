@@ -148,14 +148,24 @@ export default async function Home() {
               Meet Stephanie
             </p>
             <h2 className="mt-3 font-display text-2xl font-bold leading-snug text-ink sm:text-3xl">
-              I&apos;m not a full-time investor or a founder with funding &mdash;
-              I&apos;m doing this alongside a day job, in public, one decision at a time.
+              Your formerly broke mid-30&apos;s girl next door, building and sharing
+              my story to inspire others that it&apos;s never too late to start
+              investing and building the life of your dreams.
             </h2>
             <p className="mt-4 font-body text-base leading-relaxed text-ink-soft">
-              Day Job Wealth started as my own notes on turning a house, a paycheck,
-              and a lot of late nights into something bigger. Now it&apos;s where I
-              document real estate decisions, budgeting that actually worked, and
-              the early, unglamorous days of building my company, Hopscotch.
+              I still work my 9-5 while running my six-figure home hacking business,
+              and building Hopscotch, my latest venture. Day Job Wealth originates
+              from my personal belief and the way I operate my life &mdash; that you
+              can build a wealthy life while working your day job, and use it as the
+              platform to launch an abundant life. I&apos;m living proof that you
+              don&apos;t have to go &ldquo;all in,&rdquo; quit your 9-5, and pursue
+              &ldquo;the dream,&rdquo; because let&apos;s face it &mdash; not
+              everybody has that luxury or amount of gumption. Ultimately, wealth is
+              so much more than the numbers in your bank account (but of course, it
+              doesn&apos;t hurt). I talk about how I turned my primary home into a
+              six-figure home hacking business, corporate America&apos;s ups and
+              downs, money &amp; investing, and the rather unglamorous aspects of
+              working on Hopscotch.
             </p>
             <Link
               href="/about"

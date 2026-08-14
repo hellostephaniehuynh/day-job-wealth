@@ -33,12 +33,6 @@ export default function Header() {
               {link.label}
             </Link>
           ))}
-          <Link
-            href="/resources"
-            className="rounded-full bg-clay px-5 py-2 font-display text-sm font-semibold uppercase tracking-wide text-ivory transition-colors hover:bg-clay-dark"
-          >
-            Free Guide
-          </Link>
         </nav>
 
         <button
@@ -64,13 +58,6 @@ export default function Header() {
               {link.label}
             </Link>
           ))}
-          <Link
-            href="/resources"
-            onClick={() => setOpen(false)}
-            className="mt-2 rounded-full bg-clay px-5 py-3 text-center font-display text-sm font-semibold uppercase tracking-wide text-ivory"
-          >
-            Free Guide
-          </Link>
         </nav>
       )}
     </header>

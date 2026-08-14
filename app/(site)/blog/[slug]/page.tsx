@@ -4,6 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { PortableText } from "@portabletext/react";
 import { getPostBySlug, isBlogLive } from "@/lib/blog";
+import { socialLinks } from "@/lib/social-links";
 
 export async function generateMetadata({
   params,
@@ -30,6 +31,8 @@ export default async function BlogPostPage({
     month: "long",
     day: "numeric",
   });
+
+  const substackLink = socialLinks.find((link) => link.label === "Substack");
 
   return (
     <article className="mx-auto max-w-3xl px-6 py-16 sm:px-10 sm:py-20">
@@ -81,6 +84,17 @@ export default async function BlogPostPage({
         >
           Get the Free Guide
         </Link>
+        {substackLink && (
+          <a
+            href={substackLink.href}
+            target="_blank"
+            rel="noreferrer noopener"
+            className="flex items-center gap-2 rounded-full border border-ink/20 px-7 py-3 font-display text-sm font-semibold uppercase tracking-wide text-ink transition-colors hover:border-ink"
+          >
+            <substackLink.icon size={16} />
+            Read on Substack
+          </a>
+        )}
       </div>
     </article>
   );

@@ -37,6 +37,7 @@ export const posts: Post[] = [
       "What nobody tells you about a backyard like this is that it doesn't have to just sit there between weekends. Once it was done, I started listing it — first on Peerspace for photo shoots and small gatherings, then opening up parts of the property on Airbnb. The same pool and pergola that made me want to come home every night turned into a booking calendar.",
       "Within the first year, that backyard alone had paid for itself and then some. It's now a six-figure piece of the home hacking business I run alongside my full-time job — the same concrete slab everyone told me to leave alone is quietly funding everything else I'm building.",
       "That's the whole thesis behind Day Job Wealth: you don't need a bigger house or a different life to start. You need to look at what you already have and ask what it could become.",
+      "I share the insider details of how I actually run this home hacking business — the listings, the numbers, the mistakes — on my Substack, linked below.",
     ],
   },
   {

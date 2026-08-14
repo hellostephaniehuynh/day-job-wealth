@@ -159,7 +159,7 @@ export default async function Home() {
             </h2>
             <p className="mt-4 font-body text-base leading-relaxed text-ink-soft">
               I still work my 9-5 while running my six-figure home hacking business,
-              and building Hopscotch, my latest venture. Day Job Wealth originates
+              and building Hopscotch (my latest venture). Day Job Wealth originates
               from my personal belief and the way I operate my life &mdash; that you
               can build a wealthy life while working your day job, and use it as the
               platform to launch an abundant life. I&apos;m living proof that you

@@ -51,10 +51,11 @@ export default function ChallengePage() {
               Challenge.
             </h1>
             <p className="mt-6 max-w-lg font-body text-lg leading-relaxed text-ink-soft">
-              One small, specific money move a day for 30 days &mdash; the same kind
-              of everyday decisions that added up to a second property and a business
-              on the side. Free to join. Waitlist gets first access when doors open,
-              plus early bird perks.
+              30 days. One money move per day. The Money Moves Challenge is a daily
+              investing and wealth-building challenge designed to get you out of
+              your head and into action &mdash; with lessons, accountability, and
+              real steps you can take the same day. Spots are limited. Join the
+              waitlist to get first access.
             </p>
 
             <div className="mt-8 max-w-md">

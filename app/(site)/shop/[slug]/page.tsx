@@ -65,7 +65,7 @@ export default async function ProductPage({
           <h1 className="mt-3 font-display text-3xl font-extrabold leading-[1.1] tracking-tight text-ink sm:text-4xl">
             {product.title}
           </h1>
-          <p className="mt-5 font-body text-lg leading-relaxed text-ink-soft">
+          <p className="mt-5 whitespace-pre-line font-body text-lg leading-relaxed text-ink-soft">
             {product.longDescription}
           </p>
 

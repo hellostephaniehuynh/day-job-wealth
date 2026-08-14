@@ -1,8 +1,22 @@
 "use client";
 
+import Link from "next/link";
 import { useState, type FormEvent } from "react";
 
-export default function SubscribeForm() {
+type SubscribeFormProps = {
+  productSlug: string;
+  downloadLabel?: string;
+  buttonLabel?: string;
+  /** Shows a soft nudge toward the challenge waitlist after signup. */
+  funnelsToChallenge?: boolean;
+};
+
+export default function SubscribeForm({
+  productSlug,
+  downloadLabel = "Download",
+  buttonLabel = "Send It to Me",
+  funnelsToChallenge = false,
+}: SubscribeFormProps) {
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
   const [errorMessage, setErrorMessage] = useState("");
 
@@ -31,18 +45,26 @@ export default function SubscribeForm() {
 
   if (status === "success") {
     return (
-      <div className="rounded-2xl bg-rose-tint p-8 text-center">
+      <div className="rounded-2xl bg-paper p-8 text-center">
         <p className="font-display text-lg font-semibold text-ink">You&apos;re in!</p>
         <p className="mt-2 font-body text-sm text-ink-soft">
           Your download is ready below. I&apos;ve also sent a copy to your inbox.
         </p>
-        {/* eslint-disable-next-line @next/next/no-html-link-for-pages -- file download, not an app route */}
         <a
-          href="/api/download/home-income-guide"
-          className="mt-6 inline-block rounded-full bg-ink px-7 py-3 font-display text-sm font-semibold uppercase tracking-wide text-ivory transition-colors hover:bg-burgundy"
+          href={`/api/download/${productSlug}`}
+          className="mt-6 inline-block rounded-full bg-ink px-7 py-3 font-display text-sm font-semibold uppercase tracking-wide text-ivory transition-colors hover:bg-clay"
         >
-          Download the Guide
+          {downloadLabel}
         </a>
+        {funnelsToChallenge && (
+          <p className="mt-4 font-body text-sm text-ink-soft">
+            Curious about the 30-Day Money Moves Challenge this kit leads into?{" "}
+            <Link href="/challenge" className="font-semibold text-clay-dark underline">
+              Join the waitlist
+            </Link>
+            .
+          </p>
+        )}
       </div>
     );
   }
@@ -59,12 +81,12 @@ export default function SubscribeForm() {
       <button
         type="submit"
         disabled={status === "loading"}
-        className="shrink-0 rounded-full bg-ink px-7 py-3 font-display text-sm font-semibold uppercase tracking-wide text-ivory transition-colors hover:bg-burgundy disabled:opacity-60"
+        className="shrink-0 rounded-full bg-ink px-7 py-3 font-display text-sm font-semibold uppercase tracking-wide text-ivory transition-colors hover:bg-clay disabled:opacity-60"
       >
-        {status === "loading" ? "Sending…" : "Send Me the Guide"}
+        {status === "loading" ? "Sending…" : buttonLabel}
       </button>
       {status === "error" && (
-        <p className="w-full font-body text-sm text-burgundy">{errorMessage}</p>
+        <p className="w-full font-body text-sm text-clay-dark">{errorMessage}</p>
       )}
     </form>
   );

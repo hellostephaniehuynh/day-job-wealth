@@ -32,42 +32,42 @@ export default function ChallengeWaitlistSection() {
 
   return (
     <section className="mx-auto max-w-6xl px-6 py-16 sm:px-10">
-      <div className="grid overflow-hidden rounded-2xl bg-clay sm:grid-cols-2">
-        <div className="flex flex-col justify-center p-8 sm:p-12">
+      <div className="mx-auto grid max-w-4xl overflow-hidden rounded-2xl bg-clay sm:grid-cols-2">
+        <div className="flex flex-col justify-center p-6 sm:p-9">
           <p className="font-display text-xs font-semibold uppercase tracking-[0.2em] text-ivory/80">
             Coming Soon
           </p>
-          <h2 className="mt-3 font-display text-3xl font-extrabold uppercase leading-[1.05] tracking-tight text-ivory sm:text-4xl">
+          <h2 className="mt-2 font-display text-2xl font-extrabold uppercase leading-[1.05] tracking-tight text-ivory sm:text-3xl">
             Money Moves
             <br />
             Challenge Waitlist
           </h2>
 
           {status === "success" ? (
-            <p className="mt-5 font-body text-base text-ivory/90">
+            <p className="mt-4 font-body text-sm text-ivory/90">
               You&apos;re on the list &mdash; I&apos;ll email you the second doors open.
             </p>
           ) : (
             <>
-              <p className="mt-4 max-w-md font-body text-sm leading-relaxed text-ivory/80">
+              <p className="mt-3 max-w-md font-body text-sm leading-relaxed text-ivory/80">
                 The Money Moves Challenge is a daily investing and wealth-building
                 challenge designed to get you out of your head and into action
                 &mdash; with lessons, accountability, and real steps you can take
                 the same day. Spots are limited. Join the waitlist to get first
                 access.
               </p>
-              <form onSubmit={handleSubmit} className="mt-6 flex flex-col gap-3 sm:max-w-md">
+              <form onSubmit={handleSubmit} className="mt-5 flex flex-col gap-2.5 sm:max-w-md">
                 <input
                   type="email"
                   name="email"
                   required
                   placeholder="EMAIL ADDRESS"
-                  className="w-full rounded-full border border-ivory/30 bg-ivory/10 px-5 py-3 font-display text-xs font-semibold uppercase tracking-wide text-ivory placeholder:text-ivory/60 focus:border-ivory focus:outline-none"
+                  className="w-full rounded-full border border-ivory/30 bg-ivory/10 px-4 py-2.5 font-display text-xs font-semibold uppercase tracking-wide text-ivory placeholder:text-ivory/60 focus:border-ivory focus:outline-none"
                 />
                 <button
                   type="submit"
                   disabled={status === "loading"}
-                  className="w-full rounded-full bg-ivory px-5 py-3 font-display text-sm font-semibold uppercase tracking-wide text-ink transition-colors hover:bg-ink hover:text-ivory disabled:opacity-60 sm:w-auto"
+                  className="w-full rounded-full bg-ivory px-4 py-2.5 font-display text-sm font-semibold uppercase tracking-wide text-ink transition-colors hover:bg-ink hover:text-ivory disabled:opacity-60 sm:w-auto"
                 >
                   {status === "loading" ? "Joining…" : "Join the Waitlist"}
                 </button>

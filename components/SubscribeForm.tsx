@@ -58,7 +58,7 @@ export default function SubscribeForm({
         </a>
         {funnelsToChallenge && (
           <p className="mt-4 font-body text-sm text-ink-soft">
-            Curious about the 30-Day Money Moves Challenge this kit leads into?{" "}
+            Curious about the Money Moves Challenge this kit leads into?{" "}
             <Link href="/challenge" className="font-semibold text-clay-dark underline">
               Join the waitlist
             </Link>

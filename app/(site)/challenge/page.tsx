@@ -4,9 +4,9 @@ import { Users, Compass, CalendarCheck, Sparkles } from "lucide-react";
 import WaitlistForm from "@/components/WaitlistForm";
 
 export const metadata: Metadata = {
-  title: "30-Day Money Moves Challenge",
+  title: "Money Moves Challenge",
   description:
-    "Join the waitlist for the 30-Day Money Moves Challenge — one small money move a day, for 30 days.",
+    "Join the waitlist for the Money Moves Challenge — one small money move a day, for 30 days.",
 };
 
 const whatYouGet = [
@@ -44,9 +44,9 @@ export default function ChallengePage() {
               Coming Soon &mdash; Waitlist Open
             </p>
             <h1 className="mt-4 font-display text-4xl font-extrabold uppercase leading-[1.05] tracking-tight text-ink sm:text-5xl">
-              The 30-Day
+              The Money
               <br />
-              Money Moves
+              Moves
               <br />
               Challenge.
             </h1>
@@ -68,7 +68,7 @@ export default function ChallengePage() {
           <div className="relative mx-auto aspect-[4/5] w-full max-w-sm overflow-hidden rounded-2xl">
             <Image
               src="/images/backyard-firepit.jpg"
-              alt="The 30-Day Money Moves Challenge"
+              alt="The Money Moves Challenge"
               fill
               priority
               className="object-cover"

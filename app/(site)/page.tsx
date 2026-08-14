@@ -4,7 +4,7 @@ import { getAllPosts } from "@/lib/blog";
 import { paidProducts } from "@/lib/products";
 import PostCard from "@/components/PostCard";
 import ProductCard from "@/components/ProductCard";
-import ChallengeWaitlistModal from "@/components/ChallengeWaitlistModal";
+import ChallengeWaitlistSection from "@/components/ChallengeWaitlistSection";
 
 // Refetch blog posts and live Stripe prices at most once an hour.
 export const revalidate = 3600;
@@ -14,8 +14,6 @@ export default async function Home() {
 
   return (
     <>
-      <ChallengeWaitlistModal />
-
       {/* Hero */}
       <section className="mx-auto max-w-6xl px-6 pb-16 pt-14 sm:px-10 sm:pt-20">
         <div className="grid items-center gap-12 lg:grid-cols-[1.05fr_0.95fr] lg:gap-16">
@@ -89,6 +87,8 @@ export default async function Home() {
           View All →
         </Link>
       </section>
+
+      <ChallengeWaitlistSection />
 
       {/* Free resource banner */}
       <section className="bg-ink">

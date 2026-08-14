@@ -33,11 +33,11 @@ export const posts: Post[] = [
     readingTime: "7 min read",
     content: [
       "When I first walked into the backyard it was basically a slab of concrete and dirt. Every person I knew said that it was too big of a project, that I couldn't do it, that it was going to be too much. But I saw what it could be.",
-      "So I started small and deliberate. A pool, because water sells space. A pergola, because shade turns a yard into a room you actually want to sit in. A fire pit, because nobody leaves a backyard once the sun goes down. Every decision ran through the same filter: would this make the space more valuable, or was I just decorating it?",
-      "What nobody tells you about a backyard like this is that it doesn't have to just sit there between weekends. Once it was done, I started listing it — first on Peerspace for photo shoots and small gatherings, then opening up parts of the property on Airbnb. The same pool and pergola that made me want to come home every night turned into a booking calendar.",
-      "Within the first year, that backyard alone had paid for itself and then some. It's now a six-figure piece of the home hacking business I run alongside my full-time job — the same concrete slab everyone told me to leave alone is quietly funding everything else I'm building.",
+      "So I started small and deliberate. A pool, because water sells space. A patio, because shade turns a yard into a room you actually want to sit in. A fire pit, because nobody leaves a backyard once the sun goes down. Every decision ran through the same filter: would this make the space more valuable, or was I just decorating it?",
+      "What nobody tells you about a backyard like this is that it doesn't have to just sit there between weekends. Once it was done, I started listing it — first on Peerspace for photo shoots and gatherings, and now I even offer it for hourly rental to my Airbnb guests who live in the other portions of my home. The same pool and patio that made me want to come home every night turned into a booking calendar.",
+      "Within the first three years, that backyard alone had paid for itself and then some. It's now a six-figure piece of the home hacking business I run alongside my full-time job — the same concrete slab everyone told me to leave alone is quietly funding everything else I'm building.",
       "That's the whole thesis behind Day Job Wealth: you don't need a bigger house or a different life to start. You need to look at what you already have and ask what it could become.",
-      "I share the insider details of how I actually run this home hacking business — the listings, the numbers, the mistakes — on my Substack, linked below.",
+      "I share the insider details of how I actually run this home hacking business (and how you can too). The listings, the numbers, the mistakes — on my Substack, linked below.",
     ],
   },
   {

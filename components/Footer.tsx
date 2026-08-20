@@ -67,9 +67,15 @@ export default function Footer() {
           <p className="font-body text-xs text-ivory/50">
             &copy; {new Date().getFullYear()} Day Job Wealth by Stephanie Huynh. All rights reserved.
           </p>
-          <p className="font-body text-xs text-ivory/50">
-            Est. 2026
-          </p>
+          <div className="flex items-center gap-4">
+            <Link
+              href="/privacy"
+              className="font-body text-xs text-ivory/50 transition-colors hover:text-ivory"
+            >
+              Privacy Policy
+            </Link>
+            <p className="font-body text-xs text-ivory/50">Est. 2026</p>
+          </div>
         </div>
       </div>
     </footer>
